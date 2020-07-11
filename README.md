@@ -1,6 +1,6 @@
-# Note Taker
+# Budget trackers
 
- This application can be used to write, save, and delete notes. It uses an express backend and save and retrieve note data from a JSON file.
+ This exercise has consisted in  adding functionality to an existing Budget Tracker application to allow for offline access and functionality.
 
 ## Table of contents
 
@@ -10,7 +10,6 @@
 
 * [Technologies](#technologies)
 * [Installation](#installation)
-* [User story](#user-story)
 * [Licence](#licence)
 * [Contributing](#contributing)
 * [Questiions](#questions)
@@ -28,24 +27,17 @@
 - Express
 - CSS
 - HTML5
+- MongoDB
+- Service Workers
+- Web Manifests
 ```
 
 ## Installation
 
 Run the following  command line
 ```sh
-node server.js
+npm run start
 ```
-
-## User story
-
-AS A user, I want to be able to write and save notes
-
-I WANT to be able to delete notes I've written before
-
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit)
