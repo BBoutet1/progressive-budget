@@ -1,7 +1,7 @@
 const FILES_TO_CACHE = [
     '/',
     '/index.html',
-    '/style.css',
+    '/styles.css',
     '/index.js',
     '/manifest.webmanifest',
     '/icons/icon-192x192.png',
@@ -52,7 +52,6 @@ self.addEventListener("fetch", function(evt) {
                         if (response.status === 200) {
                             cache.put(evt.request.url, response.clone());
                         }
-
                         return response;
                     })
                     .catch(err => {
