@@ -34,9 +34,11 @@
 
 ## Installation
 
-Run the following  command line
+Run the following  command lines
 ```sh
+mongod
 npm run start
+npm run seed
 ```
 ## License
 
