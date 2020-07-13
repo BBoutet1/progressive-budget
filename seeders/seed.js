@@ -2,7 +2,7 @@ let mongoose = require("mongoose");
 let db = require("../models/transaction");
 
 
-mongoose.connect("mongodb://localhost/budget", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useFindAndModify: false
